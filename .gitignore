@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nbproject
 ._*
 .~lock.*
@@ -8,3 +9,25 @@ nbproject
 .settings
 composer.lock
 vendor/bin
+=======
+# Composer files
+composer.phar
+vendor/
+
+# Local configs
+config/autoload/*.local.php
+
+# Binary gettext files
+*.mo
+
+# Data
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
+temp/
+
+# Legacy ZF1
+demos/
+extras/documentation
+>>>>>>> 9e3afcd5225a9a2ee02c316f10700800d269bb21
